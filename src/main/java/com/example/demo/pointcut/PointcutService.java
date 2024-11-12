@@ -1,10 +1,9 @@
-package com.example.demo;
+package com.example.demo.pointcut;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MyService {
+public class PointcutService {
     public void doSomething() {
         System.out.println("Doing something...");
     }
