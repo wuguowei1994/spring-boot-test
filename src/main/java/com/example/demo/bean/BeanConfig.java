@@ -10,9 +10,4 @@ public class BeanConfig {
     public BeanService beanService() {
         return new BeanServiceImpl("bean service");
     }
-
-    @Bean
-    public BeanController beanController(BeanService beanService) {
-        return new BeanController(beanService);
-    }
 }
